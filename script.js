@@ -27,5 +27,5 @@ btn.addEventListener('click',() => {
   validName('inputName',/^([а-яa-z\s]{1,})$/gi);
   validName('iTelefon',/^\+7\((?=\d)\d{3}\)(?=\d)\d{3}-\d{4}$/gi);
   validName('iEmail',/^([a-z0-9_\.-]+)@([a-z0-9_\.-]+)\.([a-z\.]{2,6})$/gi);
-  //validName('iText',/^{1,}$/gi);
+  validName('iText',/.+?/gi);
 }); 
